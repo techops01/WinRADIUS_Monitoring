@@ -1,0 +1,12 @@
+{
+    "IMPORT_OLD": false,
+    "USERADIUSTIME": true,
+    "PATH": "C:\\Windows\\System32\\LogFiles\\IN",
+    "DBNAME": "radius",
+    "DBIP": "your_srv_Ip",
+    "DBPORT": 8086,
+    "DBUSER": "admin",
+    "DBPASS": "your_passwd",
+    "ONLYNEWDATA": true,
+    "DAILYLOGS": true
+}
