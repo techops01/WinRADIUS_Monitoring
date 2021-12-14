@@ -38,6 +38,7 @@ cd %PATH to script% (или run.bat)
 python analyze_influx.py
 
 
+
 Import the Dashboard
 
 Заходим в графану нажимаем + import
