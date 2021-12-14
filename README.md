@@ -30,10 +30,12 @@ pip install python-dateutil
 
 
 cd %PATH to script% (или run.bat)
+
 python analyze_influx.py
 
 
 Import the Dashboard
+
 Заходим в графану нажимаем + import
 
 (!)Важный момент: чтобы тянулись актуальные данные нужно в influxdb, каждый раз нужно удалять в папке win_radius_analyzer все из папки logs и файл lasttime.тхт на Windows Server 2019
