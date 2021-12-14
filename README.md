@@ -10,9 +10,13 @@ Dashboard описание
 Что необходимо:
 
 1.Windows Server 2019 with NPS enabled and acting as RADIUS Server for some Access Points
+
 2.Configure the NPS logging (NPS -> Accounting -> Logging settings) to save in the format ODBC (Legacy) and "Monthly"
-3.Python 3 on the Windows Server 2019 
+
+3.Python3 on the Windows Server 2019 
+
 3.Linux host with run InfluxDB (the database) and Grafana (for the dashboard).
+
 
 Influx и grafana разворачиваем из docker-compose
 Для лучшей производительности меняем способ передачи данных в базу данных radius по UDP протоколу. 
