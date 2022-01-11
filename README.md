@@ -50,4 +50,5 @@ Import the Dashboard
 Как можно улучшить скрипт:
 добавить поля Accounting-Request, Accounting-Response, Access-Challenge
 
+python script executed by service for Windows
 
