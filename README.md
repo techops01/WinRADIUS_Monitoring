@@ -50,5 +50,7 @@ Import the Dashboard
 Как можно улучшить скрипт:
 добавить поля Accounting-Request, Accounting-Response, Access-Challenge
 
-python script executed by service for Windows
+Конфигурация во config.json
+Желательно добавить в планировщик run.bat потому что скрипт раз в месяц отваливается потому что создается новый лог. Альтернатива - создать службу Windows с автоперезапуском
+
 
